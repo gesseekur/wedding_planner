@@ -8,7 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Blog Template for Bootstrap</title>
+	<?php echo get_bloginfo( 'name' ); ?>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php bloginfo( 'template_directory' );?>/style.css" rel="stylesheet">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -33,6 +33,6 @@
 	<div class="container">
 
 		<div class="blog-header">
-			<h1 class="blog-title">The Bootstrap Blog</h1>
-			<p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
+			<h1 class="blog-title"><a href="<?php bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
+			<p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
 		</div>
