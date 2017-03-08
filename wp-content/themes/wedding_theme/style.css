@@ -8,15 +8,34 @@ Tags: bootstrap
 
 
 .blog-masthead {
-  background-color: black;
+  color: #9e9e9e;
 }
 
+.blog-nav a {
+  color: #9e9e9e;
+}
 .blog-nav li {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;;
     position: relative;
     display: inline-block;
     padding: 10px;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 13px;
 }
-.blog-nav li a {
+
+.selected img {
+	opacity:0.5;
+}
+
+.carousel-thumbnails>li {
+  text-align: center;
+  padding: 0;
+}
+
+.carousel-thumbnails {
+  text-align: center;
+}
+/*.blog-nav li a {
     color: #fff;
-}
+}*/
