@@ -65,3 +65,8 @@ Tags: bootstrap
 	width: 100%;
   height: auto;
 }
+
+/* sweet notes */
+.sweet-notes {
+  font-style: italic;
+}
